@@ -32,7 +32,7 @@ function driversByName(drivers) {
 function totalRevenue(drivers) {
   console.log(`drivers = ${drivers}`);
   drivers.reduce(function(sum, d, i, drivers){
-    console.log(`sum = ${sum} d.revenum = ${d.revenue}`);
+    console.log(`sum = ${sum}, d.revenum = ${d.revenue}`);
      return sum + d.revenum;
   })
 }
