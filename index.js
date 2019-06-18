@@ -33,7 +33,7 @@ function totalRevenue(drivers) {
   drivers.forEach(function(d) {
     console.log(`drivers = ${d.name}`);
   })
-  
+
   drivers.reduce(function(sum, d, i, drivers){
     console.log(`sum = ${sum}, d.revenum = ${d.revenue}`);
      return sum + d.revenum;
