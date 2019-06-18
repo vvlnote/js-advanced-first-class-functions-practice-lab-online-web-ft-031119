@@ -31,6 +31,6 @@ function driversByName(drivers) {
 
 function totalRevenue(drivers) {
   drivers.reduce(function(sum, d, i, drivers){
-     return sum += d.revenum;
+     return sum + d.revenum;
   })
 }
